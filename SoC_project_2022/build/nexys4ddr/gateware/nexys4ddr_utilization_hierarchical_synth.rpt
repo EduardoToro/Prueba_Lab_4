@@ -1,0 +1,32 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date         : Wed Jun 22 15:49:48 2022
+| Host         : etorob running 64-bit Ubuntu 20.04.4 LTS
+| Command      : report_utilization -hierarchical -file nexys4ddr_utilization_hierarchical_synth.rpt
+| Design       : nexys4ddr
+| Device       : 7a100tcsg324-1
+| Design State : Synthesized
+-----------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------+-------------------+------------+------------+---------+------+------+--------+--------+------------+
+|    Instance    |       Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++----------------+-------------------+------------+------------+---------+------+------+--------+--------+------------+
+| nexys4ddr      |             (top) |       3035 |       2931 |     104 |    0 | 2377 |     14 |      0 |          0 |
+|   (nexys4ddr)  |             (top) |        627 |        611 |      16 |    0 | 1250 |     14 |      0 |          0 |
+|   picorv32     |          picorv32 |       2408 |       2320 |      88 |    0 | 1127 |      0 |      0 |          0 |
+|     (picorv32) |          picorv32 |       1715 |       1627 |      88 |    0 |  672 |      0 |      0 |          0 |
+|     pcpi_div   | picorv32_pcpi_div |        392 |        392 |       0 |    0 |  200 |      0 |      0 |          0 |
+|     pcpi_mul   | picorv32_pcpi_mul |        301 |        301 |       0 |    0 |  255 |      0 |      0 |          0 |
++----------------+-------------------+------------+------------+---------+------+------+--------+--------+------------+
+
+
